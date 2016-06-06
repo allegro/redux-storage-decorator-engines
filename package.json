@@ -1,0 +1,48 @@
+{
+  "name": "redux-storage-decorator-engines",
+  "version": "1.0.0",
+  "description": "Composing decorator for redux-storage",
+  "main": "build/index.js",
+  "jsnext:main": "src/index.js",
+  "scripts": {
+    "build": "babel src/ --out-dir dist/",
+    "test": "mocha --compilers js:babel-core/register",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/allegro/redux-storage-decorator-engines.git"
+  },
+  "homepage": "https://github.com/allegro/redux-storage-decorator-engines",
+  "keywords": [
+    "redux",
+    "redux-storage",
+    "redux-storage-decorator"
+  ],
+  "author": "Hubert Jagodziński <hubert.jagodzinski@allegrogroup.com>",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "babel-cli": "^6.7.5",
+    "babel-core": "^6.7.6",
+    "babel-eslint": "^6.0.4",
+    "babel-plugin-transform-runtime": "^6.7.5",
+    "babel-polyfill": "^6.7.4",
+    "babel-preset-es2015": "^6.6.0",
+    "chai": "^3.5.0",
+    "chai-as-promised": "^5.3.0",
+    "eslint": "^2.10.1",
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-plugin-import": "^1.8.0",
+    "eslint-plugin-jsx-a11y": "^1.2.0",
+    "eslint-plugin-react": "^5.1.1",
+    "mocha": "^2.4.5",
+    "sinon": "^1.17.4",
+    "sinon-as-promised": "^4.0.0",
+    "sinon-chai": "^2.8.0"
+  },
+  "dependencies": {}
+}
