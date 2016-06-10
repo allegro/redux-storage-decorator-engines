@@ -2,7 +2,7 @@
   "name": "redux-storage-decorator-engines",
   "version": "1.0.5",
   "description": "Composing decorator for redux-storage",
-  "main": "build/index.js",
+  "main": "dist/index.js",
   "jsnext:main": "src/index.js",
   "scripts": {
     "build": "babel src/ --out-dir dist/",
