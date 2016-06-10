@@ -1,6 +1,6 @@
 {
   "name": "redux-storage-decorator-engines",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Composing decorator for redux-storage",
   "main": "dist/index.js",
   "jsnext:main": "src/index.js",
