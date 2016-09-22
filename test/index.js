@@ -63,6 +63,20 @@ describe('index', () => {
       return expect(engine.load()).to.become({ foo: 1, bar: 2 });
     });
 
+    it('should handle an engine returning falsy values', () => {
+      // given
+      const state0 = { foo: 1 };
+      const engine0 = { load: sinon.stub().resolves(state0) };
+
+      const state1 = null;
+      const engine1 = { load: sinon.stub().resolves(state1) };
+
+      const engine = engines([engine0, engine1]);
+
+      // expect
+      return expect(engine.load()).to.become({ foo: 1 });
+    });
+
     it('should pass error from decorated engine', () => {
       // given
       const state0 = { foo: 1 };
