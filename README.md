@@ -1,5 +1,7 @@
 # [redux-storage-decorator-engines][]
 
+[![Build Status](https://travis-ci.org/allegro/redux-storage-decorator-engines.svg?branch=master)](https://travis-ci.org/allegro/redux-storage-decorator-engines)
+
 Composing decorator for [redux-storage][] to use different storage types like [redux-storage-engine-localstorage][] or [redux-storage-engine-sessionstorage][] including custom engines (i.e. to load information from cookies) in a single application.
 
 ## Installation
